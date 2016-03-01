@@ -1,0 +1,23 @@
+{
+  "name": "querystring-usage",
+  "version": "1.0.0",
+  "description": "apenas um show",
+  "scripts": {
+    "amd": "r.js -convert node_modules/querystring/ js/querystring/",
+    "start": "ws -p 3333"
+  },
+  "keywords": [
+    "querystring",
+    "test",
+    "show"
+  ],
+  "author": "Thiago Lagden",
+  "license": "ISC",
+  "dependencies": {
+    "querystring": "^0.2.0",
+    "requirejs": "^2.1.22"
+  },
+  "devDependencies": {
+    "local-web-server": "^1.1.1"
+  }
+}
